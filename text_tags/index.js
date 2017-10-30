@@ -4,7 +4,7 @@ const Path = require('path');
 const FormData = require('form-data');
 
 
-const PDF_PATH = Path.join(__dirname, 'texttags_example.pdf');
+const PDF_PATH = Path.join(__dirname, 'text_tags_test.pdf');
 const API_URL = 'https://api.hancock.ink';
 const TOKEN = '';
 const RECIPIENTS = [
