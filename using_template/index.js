@@ -14,9 +14,9 @@ const ROLES = [
 ];
 const RECIPIENTS = [
   {
-    email: 'mihailzachepilo@gmail.com',
-    firstName: 'MI',
-    lastName: 'ZA',
+    email: 'banizoz@cobin2hood.com',
+    firstName: 'firstName',
+    lastName: 'lastName',
     type: 'Client',
   },
 ];
