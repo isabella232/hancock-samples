@@ -7,6 +7,7 @@ const FormData = require('form-data');
 const PDF_PATH = Path.join(__dirname, 'Basic_Form.pdf');
 const PDF_FIELDS_PATH = Path.join(__dirname, 'fields.json');
 const API_URL = 'https://api.hancock.ink';
+const RETURN_URL = 'https://hancock.ink';
 const ROLES = [
   {
     type: 'Client',
@@ -143,6 +144,9 @@ function useTemplate(templateId) {
       templateId,
       usersList: RECIPIENTS,
       requestType: 'just_others',
+      metaInfo: {
+        returnURL: RETURN_URL,
+      },
     }),
   })
     .then((response) => {
