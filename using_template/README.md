@@ -1,5 +1,6 @@
-Hancock templates usage example.
-This example will create a new template in your account and use it to send for a configured person.
+# Hancock Templates Usage Example
+
+This example will create a new template in your account and use it to send a signature request to a specific person.
 
 Run example script:
 - Install the example and any dependencies with `npm i`
