@@ -1,4 +1,4 @@
-# Hancock Templates Usage Example.
+# Hancock Templates Usage Example
 
 This example will create a new template in your account and use it to send a signature request to a specific person.
 
