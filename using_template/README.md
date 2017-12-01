@@ -8,7 +8,7 @@ Run example script:
 - Change the `RECIPIENTS` constant to include the email of your recipient.
 - Run the example with `node index.js`
 - Check the email of the first recipient.
-- sign request.
+- Sign signature request.
 - View the filled data in console.
 
 How it works:
