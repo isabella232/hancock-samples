@@ -1,0 +1,11 @@
+{
+  "name": "get_token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-fetch": "^1.7.3"
+  },
+  "author": "Peculiar Ventures",
+  "license": "ISC"
+}

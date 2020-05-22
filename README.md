@@ -1,9 +1,10 @@
 # hancock-samples
-This repository contains examples of using the [Hancock API](https://api.hancock.ink/docs/).
+This repository contains examples of using the [Hancock API](https://docs.hancockapp.com).
 
 Examples include:
-- [Using Text Tags](https://github.com/PeculiarVentures/hancock-samples/tree/master/text_tags)
-- [Using a Template](https://github.com/PeculiarVentures/hancock-samples/tree/master/using_template)
-- [Embeding in an IFRAME](https://github.com/PeculiarVentures/hancock-samples/tree/master/iframe_embedding)
-- [Change API key](https://github.com/PeculiarVentures/hancock-samples/tree/master/change_api_key)
-- [Get User API key](https://github.com/PeculiarVentures/hancock-samples/tree/master/get_api_key)
+- [Create an App](./create_app)
+- [Obtain an API token](./obtain_api_token)
+- [Upload file](./upload_file)
+- [Create transaction](./create_transaction)
+- [Read transaction](./read_transaction)
+- [Download file](./download_file)
