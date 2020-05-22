@@ -2,9 +2,9 @@
 This repository contains examples of using the [Hancock API](https://docs.hancockapp.com).
 
 Examples include:
-- [Create an App](./create_app)
-- [Obtain an API token](./obtain_api_token)
-- [Upload file](./upload_file)
-- [Create transaction](./create_transaction)
-- [Read transaction](./read_transaction)
-- [Download file](./download_file)
+1. [Create an App](./create_app)
+2. [Obtain an API token](./obtain_api_token)
+3. [Upload file](./upload_file)
+4. [Create transaction](./create_transaction)
+5. [Read transaction](./read_transaction)
+6. [Download file](./download_file)
