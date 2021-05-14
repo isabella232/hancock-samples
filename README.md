@@ -1,5 +1,5 @@
 # hancock-samples
-This repository contains examples of using the [Hancock API](https://docs.hancockapp.com).
+This repository contains examples of using the [Hancock API](https://docs.hancock.ink).
 
 Examples include:
 1. [Create an App](./create_app)

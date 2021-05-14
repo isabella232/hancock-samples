@@ -1,7 +1,7 @@
 const fetch = require('node-fetch');
 const fs = require('fs');
 
-const API_URL = 'https://api.quant.agency';
+const API_URL = 'https://api.hancock.ink';
 
 function getFileUploadURL(token) {
   return fetch(`${API_URL}/files/upload_url`, {
@@ -61,7 +61,7 @@ function createFileMetadata(token, bodyRef) {
     },
     body: JSON.stringify({
       bodyRef,
-      attributes: { title: 'Non Discosure Agreement' },
+      attributes: { title: 'Non Disclosure Agreement' },
     }),
   })
     .then(response => {
@@ -89,7 +89,7 @@ async function main() {
   await uploadFileBody(url);
   const file = await createFileMetadata(apiToken, bodyRef);
 
-  console.log(`File with id ${file.id} succesfully created!\n You can view it at https://app.hancockapp.com/file/${file.id}`);
+  console.log(`File with id ${file.id} successfully created!\n You can view it at https://app.hancock.ink/file/${file.id}`);
 }
 
 main()

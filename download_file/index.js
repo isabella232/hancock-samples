@@ -3,7 +3,7 @@ const fs = require('fs');
 const util = require('util');
 const stream = require('stream');
 
-const API_URL = 'https://api.quant.agency';
+const API_URL = 'https://api.hancock.ink';
 
 const finished = util.promisify(stream.finished);
 

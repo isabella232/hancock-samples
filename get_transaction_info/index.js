@@ -1,6 +1,6 @@
 const fetch = require('node-fetch');
 
-const API_URL = 'https://api.quant.agency';
+const API_URL = 'https://api.hancock.ink';
 
 function readTransaction(token, transactionId) {
   return fetch(`${API_URL}/transactions/${transactionId}`, {
@@ -37,7 +37,7 @@ async function main() {
   const transaction = await readTransaction(apiToken, transactionId);
   const recipientEmails = transaction.recipients.map(rec => rec.email);
 
-  console.log(`Transaction owned by ${transaction.owner.email}, sent to ${recipientEmails.join(', ')} is ${transaction.status}`);
+  console.log(`Transaction owned by ${transaction.owner.email}, sent to ${recipientEmails.join(', ')} is in ${transaction.status} state`);
 }
 
 main()

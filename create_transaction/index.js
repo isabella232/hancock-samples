@@ -1,6 +1,6 @@
 const fetch = require('node-fetch');
 
-const API_URL = 'https://api.quant.agency';
+const API_URL = 'https://api.hancock.ink';
 
 function createTransaction(token, fileId, recipientEmail) {
   return fetch(`${API_URL}/transactions`, {
@@ -72,7 +72,7 @@ async function main() {
 
   await startTransaction(apiToken, transaction.id);
 
-  console.log(`Transaction with id ${transaction.id} succesfully started!\n User ${recipientEmail} will receive an email.\n You can view transaction at https://app.hancockapp.com/transaction/${transaction.id}`);
+  console.log(`Transaction with id ${transaction.id} successfully started!\n User ${recipientEmail} will receive an email.\n You can view transaction at https://app.hancock.ink/transaction/${transaction.id}`);
 }
 
 main()
